@@ -39,7 +39,7 @@ function App() {
           />
         </form>
       </div>
-      {filteredCoins.map((coin) => {
+      {filteredCoins.map((coin) =>{
         return (
           <Coin
             key={coin.id}
